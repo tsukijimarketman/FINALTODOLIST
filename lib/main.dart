@@ -107,7 +107,7 @@ class _ToDoListState extends State<ToDoList> {
                       onTap: () => _pushEditToDoScreen(context, index),
                     ),
                     IconSlideAction(
-                      caption: 'Deletes',
+                      caption: 'Deletesssss',
                       color: Colors.red,
                       icon: Icons.delete,
                       onTap: () => _deleteToDoItem(index),
