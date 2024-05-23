@@ -9,14 +9,14 @@ class UnboardingContent{
 List<UnboardingContent> contents = [
   UnboardingContent(
     image: 'assets/ob1.png', 
-    title: "Select from our Menu", 
-    description: "Pick your food from our menu\n        Satisfy your cravings"),
+    title: "Welcome to KNote!", 
+    description: "Get organized effortlessly!"),
   UnboardingContent(
     image: "assets/ob2.png", 
-    title: "Easy Payment", 
-    description: "  You can pay cash on delivery\nCard payment is also available"),
+    title: "Create & Customize Tasks", 
+    description: "Tailor your to-do list to fit your unique workflow."),
   UnboardingContent(
     image: "assets/ob3.png", 
-    title: "Quick Delivery", 
-    description: "Deliver your food at your Doorsteps")
+    title: "Track & Achieve Goals", 
+    description: " Reach your milestones with Knote!")
 ];

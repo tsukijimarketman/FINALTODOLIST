@@ -47,7 +47,7 @@ class _OnboardState extends State<Onboard> {
                 return Padding(padding: EdgeInsets.only(top: 40, left: 20, right: 20),
                   child: Column(
                     children: [
-                Image.asset(contents[i].image, height: 450, width: MediaQuery.of(context).size.width, fit: BoxFit.fill,),
+                Image.asset(contents[i].image, height: MediaQuery.of(context).size.height/1.8, width: MediaQuery.of(context).size.width, fit: BoxFit.fill,),
                 SizedBox(height: 30,),
                 Text(contents[i].title, style: AppWidget.HeadlineTextFieldStyle(),),
                 SizedBox(height: 15,),
@@ -73,7 +73,7 @@ class _OnboardState extends State<Onboard> {
             },
             child: Container(
               decoration: BoxDecoration(
-                color: Color(0xFFD61C38),
+                color: Color(0xFFffa930),
                 borderRadius: BorderRadius.circular(20)
               ),
               height: 50,
@@ -91,6 +91,6 @@ class _OnboardState extends State<Onboard> {
       height: 10, 
       width: currenIndex==index?18:7, 
       margin: EdgeInsets.only(right: 5), 
-      decoration: BoxDecoration(borderRadius: BorderRadius.circular(6), color: Color(0xFFD61C38)));
+      decoration: BoxDecoration(borderRadius: BorderRadius.circular(6), color: Color(0xFFffa930)));
   }
 }
